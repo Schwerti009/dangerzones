@@ -1,0 +1,7 @@
+{
+  "name": "@zs/facts",
+  "private": true,
+  "main": "src/index.ts",
+  "exports": { ".": "./src/index.ts" },
+  "scripts": { "build": "tsc --noEmit", "test": "vitest run", "lint": "eslint .", "typecheck": "tsc --no-emit" }
+}
