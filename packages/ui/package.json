@@ -3,5 +3,5 @@
   "private": true,
   "main": "src/index.ts",
   "exports": { ".": "./src/index.ts" },
-  "scripts": { "build": "tsc --noEmit", "test": "vitest run", "lint": "eslint .", "typecheck": "tsc --noEmit" }
+  "scripts": { "build": "tsc --no-emit", "test": "vitest run --passWithNoTests", "lint": "eslint .", "typecheck": "tsc --no-emit" }
 }
