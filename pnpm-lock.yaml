@@ -1,0 +1,18 @@
+# This is a PNPM lockfile v9
+# Read more: https://pnpm.io/configuration
+
+lockfileVersion: '9.0'
+
+settings:
+  autoInstallPeers: true
+  excludeLinksFromLockfile: false
+
+packages: {}
+
+dependencies: {}
+
+devDependencies: {}
+
+specifiers: {}
+
+snapshots: {}
